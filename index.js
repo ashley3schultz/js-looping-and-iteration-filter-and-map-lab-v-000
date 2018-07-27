@@ -4,6 +4,7 @@ function driversWithRevenueOver(arr, num) {
     if (user.revenue > num) {
       return user
     }
+  }
 }
 
 
