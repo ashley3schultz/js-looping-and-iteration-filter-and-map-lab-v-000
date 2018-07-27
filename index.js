@@ -1,9 +1,6 @@
 // Code your solution here:
 function driversWithRevenueOver(arr, num) {
-  const newArr = []
-  for (const user of array) {
-    newArr.push(num(user));
-  }
+  arr.filter(users, function (user) { return user.revenue > num})
 }
 
 function driverNamesWithRevenueOver(arr, num) {
