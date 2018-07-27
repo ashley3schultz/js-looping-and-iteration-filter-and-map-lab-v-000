@@ -1,10 +1,6 @@
 // Code your solution here:
 function driversWithRevenueOver(arr, num) {
-  newarr = arr.filter(function (user) {
-    if (user.revenue > num) {
-      return user
-    }
-  }
+  newarr = arr.filter(function (user) { user.revenue > num }
   return newarr
 }
 
