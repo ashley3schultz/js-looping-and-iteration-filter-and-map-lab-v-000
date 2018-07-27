@@ -1,13 +1,6 @@
 // Code your solution here:
 function driversWithRevenueOver(arr, num) {
-  narr = []
-  narr = for (const user of arr) {
-  newarr = arr.map(function (user) {
-    if (user.revenue > num) {
-      return Object.assign({}, user);
-    }
-  }
-  return narr
+  return arr.map(function (user) { return Object.assign({}, user)}
 }
 
 function driverNamesWithRevenueOver(arr, num) {
