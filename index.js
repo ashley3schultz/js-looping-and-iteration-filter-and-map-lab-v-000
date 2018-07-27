@@ -14,5 +14,5 @@ function exactMatch(arr, obj) {
 
 
 function exactMatchToList(arr, obj) {
-  return exactMatch(arr, obj).map(user: user.name)
+  return exactMatch(arr, obj).map(user => user.name)
 }
