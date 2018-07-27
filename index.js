@@ -6,7 +6,7 @@ function driversWithRevenueOver(arr, num) {
 }
 
 function driverNamesWithRevenueOver(arr, num) {
-  arr.map(function (user) { return user.revenue: > num });
+  return arr.map(function (user) { if (user.revenue > num) {return user.name }})
 }
 
 function exactMatch(arr, obj) {
