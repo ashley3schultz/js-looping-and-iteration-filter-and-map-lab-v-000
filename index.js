@@ -4,16 +4,16 @@ function driversWithRevenueOver(arr, num) {
 }
 
 
-function driverNamesWithRevenueOver() {
+function driverNamesWithRevenueOver(arr, num) {
 
 }
 
-function exactMatch() {
+function exactMatch(arr, obj) {
 
 }
 
 
-function exactMatchToList() {
+function exactMatchToList(arr, obj) {
 
 }
 
