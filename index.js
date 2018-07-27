@@ -1,10 +1,11 @@
 // Code your solution here:
 function driversWithRevenueOver(arr, num) {
-  return arr.map(function (user) {
+  newarr = arr.map(function (user) {
     if (user.revenue > num) {
       return user
     }
   }
+  return newarr
 }
 
 
