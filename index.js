@@ -8,7 +8,7 @@ function driverNamesWithRevenueOver(arr, num) {
 }
 
 function exactMatch(arr, obj) {
-
+  return arr.map(function (user) { return user === obj })
 }
 
 
