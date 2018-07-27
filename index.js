@@ -16,18 +16,3 @@ function exactMatch(arr, obj) {
 function exactMatchToList(arr, obj) {
 
 }
-
-
-function driverNamesWithRevenueOver() {
-
-}
-
-
-function exactMatch() {
-
-}
-
-
-function exactMatchToList() {
-
-}
